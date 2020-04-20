@@ -8,10 +8,13 @@ class Student
      println(" My name is " +s)
   }
 }
-
+class Teacher extends Student
+{
+  println(" I am Teacher")
+}
 object file1  extends App{
 
-  val s= new Student
+  val s= new Teacher
   s.details
 
 }
