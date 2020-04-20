@@ -12,9 +12,16 @@ class Add extends  Admin
 {
   println(" this is a dog")
 }
-object file1  extends App{
+ def details2: Unit =
+  {
+    println(" this is something else")
+  }
 
-  val s= new Add
+}
+object file1  extends App{
+val x= new Add
+  val s= new Admin
   s.details
+  s.details2
 
 }
