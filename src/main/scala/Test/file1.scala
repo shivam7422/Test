@@ -1,20 +1,16 @@
 package Test
 
-class Student
+class Admin
 {
   def details: Unit =
   {
-    val s= " Shivam "
-     println(" My name is " +s)
+    val s= " Kadipur "
+     println(" I live in " +s)
   }
-}
-class Teacher extends Student
-{
-  println(" I am Teacher")
 }
 object file1  extends App{
 
-  val s= new Teacher
+  val s= new Admin
   s.details
 
 }
