@@ -8,9 +8,13 @@ class Admin
      println(" I live in " +s)
   }
 }
+class Add extends  Admin
+{
+  println(" this is a dog")
+}
 object file1  extends App{
 
-  val s= new Admin
+  val s= new Add
   s.details
 
 }
